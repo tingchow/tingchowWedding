@@ -1,0 +1,7 @@
+<template name="aec443d6">
+  <view class="_div data-v-1d44eb71 section"><video id="myVideo" src="视频资源地址" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls poster="视频封面地址" class="_video data-v-1d44eb71"></video>
+    <view class="_div data-v-1d44eb71 btn-area"><input bindblur="handleProxy" placeholder="请输入临时弹幕，真实弹幕来自留言" placeholder-style="color:#bbb" data-eventid="{{'2_0'}}" data-comkey="{{$k}}" class="_input data-v-1d44eb71" /> <button bindtap="handleProxy" data-eventid="{{'2_1'}}" data-comkey="{{$k}}" class="_button data-v-1d44eb71">点击生成临时弹幕</button>
+      <image src="../../static/images/close1.png" bindtap="handleProxy" data-eventid="{{'2_2'}}" data-comkey="{{$k}}" class="_image data-v-1d44eb71"></image>
+    </view>
+  </view>
+</template>

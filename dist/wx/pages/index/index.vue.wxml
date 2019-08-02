@@ -1,0 +1,24 @@
+<import src="/components/indexSwiper.vue.wxml" /><template name="3ff22a00">
+  <view class="_div data-v-d62fdb2a index">
+    <view class="_div data-v-d62fdb2a bg-swiper"><template data="{{...$root[$kk+'0'], $root}}" is="0f4be884"></template></view>
+    <image class="_image data-v-d62fdb2a inv" src="../../static/images/inv.png"></image>
+    <view class="_div data-v-d62fdb2a bg_music" wx:if="{{isPlay}}" bindtap="handleProxy" data-eventid="{{'1_1'}}" data-comkey="{{$k}}">
+      <image src="../../static/images/music_icon.png" class="_image data-v-d62fdb2a musicImg music_icon"></image>
+      <image src="../../static/images/music_play.png" class="_image data-v-d62fdb2a music_play pauseImg"></image>
+    </view>
+    <view class="_div data-v-d62fdb2a bg_music" wx:else bindtap="handleProxy" data-eventid="{{'1_0'}}" data-comkey="{{$k}}">
+      <image src="../../static/images/music_icon.png" class="_image data-v-d62fdb2a musicImg"></image>
+      <image src="../../static/images/music_play.png" class="_image data-v-d62fdb2a music_play playImg"></image>
+    </view>
+    <view class="_div data-v-d62fdb2a info" animation="{{animationData}}">
+      <view class="_div data-v-d62fdb2a content">
+        <view class="_h1 data-v-d62fdb2a">王汀洲 & 陈梦莎</view>
+        <view class="_p data-v-d62fdb2a">谨定于 2019年10月4日 （星期五）中午11:30</view>
+        <view class="_p data-v-d62fdb2a">农历 九月初六 中午十一点半整 举办婚礼</view>
+        <view class="_p data-v-d62fdb2a">席设：枣庄市薛城区惠我南黎花园湖景酒店</view>
+        <view class="_p data-v-d62fdb2a">地址：枣庄市薛城区光明大道4199号</view>
+        <image src="../../static/images/we.png" class="_image data-v-d62fdb2a img_footer"></image>
+      </view>
+    </view> <audio id="myAudio" src="{{audioUrl}}" autoplay loop class="_audio data-v-d62fdb2a"></audio>
+  </view>
+</template>

@@ -1,0 +1,11 @@
+<template name="0f4be884">
+  <view class="_div data-v-431afe40 box">
+    <swiper class="_swiper data-v-431afe40 swiper" autoplay="{{true}}" circular="{{true}}" current="0" indicator-dots="{{true}}" vertical="{{true}}">
+      <block wx:key="index" key="{{index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+        <swiper-item class="_swiper-item data-v-431afe40 item">
+          <image mode="aspectFill" lazy-load="true" src="{{item}}" class="_image data-v-431afe40 slide-image"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</template>

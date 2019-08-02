@@ -1,0 +1,13 @@
+<template name="0fc8b938">
+  <view class="_div data-v-0bd45e5c">
+    <scroll-view class="_scroll-view data-v-0bd45e5c formlist" scroll-y>
+      <view class="_li data-v-0bd45e5c item" wx:key="index" key="{{index}}" wx:for="{{formList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-0bd45e5c item-top"><label class="_span data-v-0bd45e5c left">{{item.name}}</label> <label class="_span data-v-0bd45e5c right">{{item.phone}}</label></view>
+        <view class="_div data-v-0bd45e5c item-middle">
+          <view class="_p data-v-0bd45e5c address"><label class="_span data-v-0bd45e5c">{{item.count}}</label> <label wx:if="{{item.desc}}" class="_span data-v-0bd45e5c">备注：{{item.desc}}</label></view>
+        </view>
+      </view>
+    </scroll-view>
+    <image src="../../static/images/close1.png" bindtap="handleProxy" data-eventid="{{'1_0'}}" data-comkey="{{$k}}" class="_image data-v-0bd45e5c"></image>
+  </view>
+</template>
